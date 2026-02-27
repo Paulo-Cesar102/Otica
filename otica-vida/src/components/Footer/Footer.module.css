@@ -1,0 +1,70 @@
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 60px 20px;
+  margin-top: 80px;
+  border-top: 2px solid #ff0202;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+
+  flex-wrap: wrap;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.copy {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.contactItem:hover {
+  color: #ff0202;
+  transform: scale(1.05);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact {
+    align-items: center;
+  }
+}
