@@ -4,6 +4,7 @@ import Hero from "../src/components/Hero/Hero";
 import "./globals.css";
 import CardOculos from "../src/components/Cards/Card.Oculos";
 import Footer from "../src/components/Footer/Footer";
+import Sobre from "@/src/components/Sobre/Sobre";
 export default function Home() {
   return (
     <>
@@ -11,6 +12,7 @@ export default function Home() {
       <Header/>
         <Hero/>
         <CardOculos/>
+        <Sobre/>
       <Footer/>
     </>
   );
